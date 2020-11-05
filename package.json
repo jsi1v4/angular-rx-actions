@@ -1,0 +1,50 @@
+{
+  "name": "angular-rx-actions",
+  "version": "1.0.0",
+  "description": "Tool for angular projects or reactive applications with rxjs.",
+  "main": "main.ts",
+  "repository": "https://github.com/jsi1v4/angular-rx-actions.git",
+  "author": "jsi1v4",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "jest --silent"
+  },
+  "dependencies": {
+    "@angular/compiler": "~9.1.11",
+    "@angular/core": "~9.1.11",
+    "@angular/platform-browser": "~9.1.11",
+    "@angular/platform-browser-dynamic": "~9.1.11",
+    "rxjs": "~6.5.4",
+    "tslib": "^1.10.0",
+    "zone.js": "~0.10.2"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~0.901.9",
+    "@angular/cli": "~9.1.9",
+    "@angular/compiler-cli": "~9.1.11",
+    "@testing-library/angular": "^9.5.0",
+    "@types/jest": "^24.9.1",
+    "@types/node": "^12.11.1",
+    "jest": "^25.1.0",
+    "jest-preset-angular": "^8.0.0",
+    "ts-jest": "^26.4.0",
+    "ts-node": "~8.3.0",
+    "tslint": "~6.1.0",
+    "typescript": "~3.8.3"
+  },
+  "jest": {
+    "globals": {
+      "ts-jest": {
+        "tsconfig": "<rootDir>/tsconfig.spec.json"
+      }
+    },
+    "preset": "jest-preset-angular",
+    "setupFilesAfterEnv": [
+      "<rootDir>/src/test.ts"
+    ]
+  }
+}
