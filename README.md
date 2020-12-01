@@ -1,5 +1,5 @@
 # Angular Rxjs Actions
-Tool for angular projects or reactive applications with rxjs. 
+Tool for angular projects or reactive applications with rxjs, [take a look!](https://jsi1v4.com/angular-rx-actions)
 
 ## How to use
 
@@ -19,7 +19,7 @@ Tool for angular projects or reactive applications with rxjs.
 ### Component
 ```
   readonly request = new Action<Hero[]>();
-  
+
   getHeroes() {
     this.request.exec(
       this.appService.getHeroes(), // Observable
