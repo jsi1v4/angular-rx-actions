@@ -1,5 +1,5 @@
 # Angular Rxjs Actions
-Tool for angular projects or reactive applications with rxjs, [take a look!](https://jsi1v4.com/angular-rx-actions)
+Tool for angular projects or reactive applications with rxjs, [take a look!](https://www.jsi1v4.com/angular-rx-actions)
 
 ## How to use
 
