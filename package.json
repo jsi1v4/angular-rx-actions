@@ -4,8 +4,8 @@
   "description": "Tool for angular projects or reactive applications with rxjs.",
   "main": "main.ts",
   "repository": "https://github.com/jsi1v4/angular-rx-actions.git",
-  "author": "jsi1v4",
-  "license": "GPL-3.0",
+  "author": "Jsi1v4 <me@jsi1v4.dev>",
+  "license": "MIT",
   "private": false,
   "scripts": {
     "ng": "ng",
