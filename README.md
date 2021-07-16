@@ -1,9 +1,11 @@
 # Angular Rxjs Actions
+
 Tool for angular projects or reactive applications with rxjs, [take a look!](https://www.jsi1v4.com/angular-rx-actions)
 
 ## How to use
 
 ### Service
+
 ```
   const heroes: Hero[] = [
     { name: 'Peter', level: 25 },
@@ -17,6 +19,7 @@ Tool for angular projects or reactive applications with rxjs, [take a look!](htt
 ```
 
 ### Component
+
 ```
   readonly request = new Action<Hero[]>();
 
@@ -30,6 +33,7 @@ Tool for angular projects or reactive applications with rxjs, [take a look!](htt
 ```
 
 ### Template
+
 ```
   <ng-container *ngIf="request.$ | async as data">
     <span *ngIf="data.loading">Loading...</span>
@@ -41,8 +45,5 @@ Tool for angular projects or reactive applications with rxjs, [take a look!](htt
       </tr>
     ...
   </ng-container>
+``
 ```
-
-## About
-- **Author**: Jose Silva
-- **Dep**: Rxjs(>6.x.x)
